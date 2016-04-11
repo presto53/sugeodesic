@@ -1,0 +1,1 @@
+A plug-in for SketchUp that automates the creation of fully configurable geodesic domes. Visit the website at https://sites.google.com/site/sugeodesic/
