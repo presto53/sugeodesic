@@ -261,8 +261,11 @@ module Geodesic
 				processing.show			
 				#script = "from_ruby('Processing stuff');"
 				#processing.execute_script(script)			
-				dialog.close	
+				dialog.close
+				model = Sketchup.active_model
+				model.start_operation("Draw dome model")
 				draw()
+				model.commit_operation
 				
 				#Save the configuration for the next load
 				saveConfiguration()
